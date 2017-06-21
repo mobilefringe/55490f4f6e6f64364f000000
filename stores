@@ -190,23 +190,19 @@
         
          
     
-    function goToStore(store_details){
-        if(typeof(store_details) != 'undefined' && store_details != null){
-            window.location.href = "/stores/"+store_details.slug;
+        function goToStore(store_details){
+            if(typeof(store_details) != 'undefined' && store_details != null){
+                window.location.href = "/stores/"+store_details.slug;
+            }
         }
-    }
 
-    function getSVGMapURL(){
-        initData();
-        var mallDataJSON = JSON.parse(getStorage().mallData);
-        return 'https://mallmaverick.cdn.speedyrails.net' + mallDataJSON.property.svgmap_url;
-    }
-    
+        function getSVGMapURL(){
+            initData();
+            var mallDataJSON = JSON.parse(getStorage().mallData);
+            return 'https://mallmaverick.cdn.speedyrails.net' + mallDataJSON.property.svgmap_url;
+        }
     
         loadMallData(renderAll);  
-
-    
-  
     });
     
     function show_cat(link, type){
