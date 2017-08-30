@@ -104,17 +104,11 @@
                 if ((val.promo_image_url).indexOf('missing.png') > -1){
                     if (val.promotionable_type == "Store") {
                         var store_details = getStoreDetailsByID(val.promotionable_id);
-                        val.alt_promo_image_url = val.promo_image_url_abs;
+                        val.alt_promo_image_url = getImageURL(store_details.store_front_url);
                         val.store_detail_btn = store_details.slug 
                         val.store_name = store_details.name
-                    }
-                    if((val.promo_image_url_abs).indexOf('missing.png') > -1){
-                        var store_front = getImageURL(store_details.store_front_url);
-                        val.alt_promo_image_url = store_front;
-                
-                        if(store_front == null) {
-                            val.alt_promo_image_url = "//kodekloud.s3.amazonaws.com/sites/55490f4f6e6f64364f000000/487bc0e6f6770837b748dc0194017d4e/default.jpg"
-                        }
+                    } else {
+                        val.alt_promo_image_url = "//kodekloud.s3.amazonaws.com/sites/55490f4f6e6f64364f000000/487bc0e6f6770837b748dc0194017d4e/default.jpg"
                     }
                 } else {
                     if (val.promotionable_type == "Store") {
@@ -124,6 +118,12 @@
                     }
                    val.alt_promo_image_url = getCloudinaryImageUrl(val.promo_image_url);
                 }
+                // start = new Date (val.start_date + "T05:00:00Z");
+                // end = new Date (val.end_date + "T05:00:00Z");
+                // start.setDate(start.getDate()+1);
+                // end.setDate(end.getDate()+1);
+                // val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();
+                
                 var start = moment(val.start_date).tz(getPropertyTimeZone());
                 var end = moment(val.end_date).tz(getPropertyTimeZone());
                 if (start.format("DMY") == end.format("DMY")){
