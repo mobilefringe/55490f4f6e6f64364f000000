@@ -104,11 +104,16 @@
                 if ((val.promo_image_url).indexOf('missing.png') > -1 || val.promo_image_url == null){
                     if (val.promotionable_type == "Store") {
                         var store_details = getStoreDetailsByID(val.promotionable_id);
-                        val.alt_promo_image_url = getImageURL(store_details.store_front_url);
+                        val.alt_promo_image_url = val.promo_image_url_abs;
                         val.store_detail_btn = store_details.slug 
                         val.store_name = store_details.name
-                    } else {
-                        val.alt_promo_image_url = "//kodekloud.s3.amazonaws.com/sites/55490f4f6e6f64364f000000/487bc0e6f6770837b748dc0194017d4e/default.jpg"
+                    }
+                    if((val.promo_image_url_abs).indexOf('missing.png') > -1){
+                        var store_front = getImageURL(store_details.store_front_url);
+                        val.alt_promo_image_url = store_front;
+                        if(store_front == null) {
+                            val.alt_promo_image_url = "//kodekloud.s3.amazonaws.com/sites/55490f4f6e6f64364f000000/487bc0e6f6770837b748dc0194017d4e/default.jpg"
+                        }
                     }
                 } else {
                     if (val.promotionable_type == "Store") {
