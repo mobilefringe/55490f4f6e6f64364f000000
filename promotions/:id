@@ -123,12 +123,6 @@
                     }
                    val.alt_promo_image_url = getCloudinaryImageUrl(val.promo_image_url);
                 }
-                // start = new Date (val.start_date + "T05:00:00Z");
-                // end = new Date (val.end_date + "T05:00:00Z");
-                // start.setDate(start.getDate()+1);
-                // end.setDate(end.getDate()+1);
-                // val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();
-                
                 var start = moment(val.start_date).tz(getPropertyTimeZone());
                 var end = moment(val.end_date).tz(getPropertyTimeZone());
                 if (start.format("DMY") == end.format("DMY")){
@@ -146,55 +140,7 @@
                 $("#store_btn").show();
             }
         }
-        
-        function get_month (id){
-            switch(id) {
-                case 0:
-                    month = "Jan"
-                    break;
-                case 1:
-                    month = "Feb"
-                    break;
-                case 2:
-                    month = "Mar"
-                    break;
-                case 3:
-                    month = "Apr"
-                    break;
-                case 4:
-                    month = "May"
-                    break;
-                case 5:
-                    month = "June"
-                    break;
-                case 6:
-                    month = "July"
-                    break;
-                case 7:
-                    month = "Aug"
-                    break;
-                case 8:
-                    month = "Sep"
-                    break;
-                case 9:
-                    month = "Oct"
-                    break;
-                case 10:
-                    month = "Nov"
-                    break;
-                case 11:
-                    month = "Dec"
-                    break;
-                    
-            }
-            return month;
-        }
-        
 
         loadMallData(renderAll);  
-
-    
-  
     });
-    
 </script>
