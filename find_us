@@ -36,7 +36,7 @@
             var propertyDetails = getPropertyDetails();
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             prefix = get_prefix();
-            var pages_json = prefix+"/pages/laurentian-contact-us.json"
+            var pages_json = prefix+"/pages/miltoneast-contact-us.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_title').html(data.title);
                 // $('#mm_title_phone').html(data.title);
