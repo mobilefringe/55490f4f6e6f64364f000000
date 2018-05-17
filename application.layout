@@ -92,7 +92,8 @@
             });      
         });
         
-        setEndPoint('//miltoneast.mallmaverick.com/api/v4/miltoneast/all.json');
+        // setEndPoint('//miltoneast.mallmaverick.com/api/v4/miltoneast/all.json');
+        setEndPoint('//twinpine.mallmaverick.com/api/v4/twinpine/all.json');
     </script>
 <style>
     /*custom styles*/
