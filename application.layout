@@ -108,17 +108,17 @@
             background-repeat: no-repeat;
         }
     a .directory_content:hover{
-        color: #999 !important;
+        color: #666666 !important;
     }
     /*hyperlinks*/
     a{
-        color:#999999;
+        color:#666666;
         text-decoration:inherit;
     }
     
     /*hyperlink hover color*/
     a:hover{
-        color:#999999 !important;
+        color:#666666 !important;
     }
     
     body{
@@ -160,23 +160,23 @@
      
     }
     .site_welcome_msg{
-            font-size:22px !important;
-            margin-top:0 !important;
-            line-height:20px !important;
-            text-transform: uppercase;
-        }
-        .site_description{
-            font-size:15px !important;
-            line-height:20px !important;
-            margin-bottom:0 !important;
-            text-transform: none;
-        }
-        .flex-control-nav {
-            background: #fff;
-        }
-        .flex-control-paging li a {
-            color : #000;
-        }
+        font-size:22px !important;
+        margin-top:0 !important;
+        line-height:20px !important;
+        text-transform: uppercase;
+    }
+    .site_description{
+        font-size:15px !important;
+        line-height:20px !important;
+        margin-bottom:0 !important;
+        text-transform: none;
+    }
+    .flex-control-nav {
+        background: #fff;
+    }
+    .flex-control-paging li a {
+        color : #000;
+    }
     /*social media box color*/
     #social_media_wrapper{
         background:#18498d;
