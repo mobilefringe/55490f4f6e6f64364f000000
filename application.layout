@@ -98,7 +98,7 @@
     /*custom styles*/
     .bk_logo_svg {
             position: absolute;
-            top: 0;
+            top: -10px;
             right: 10px;
             display: inline-block;
             width: 194px;
