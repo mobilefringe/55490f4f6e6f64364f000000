@@ -99,12 +99,12 @@
     .bk_logo_svg {
             position: absolute;
             top: 0;
-            right: 0;
+            right: 20;
             display: inline-block;
             width: 194px;
             height: 100px;
             background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/055/172/original/BK_Logo_Oaks.svg?1561652010);
-            background-size: 100px 70px;
+            background-size: 194px 100px;
             background-repeat: no-repeat;
         }
     a .directory_content:hover{
