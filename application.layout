@@ -101,9 +101,9 @@
             top: 0;
             right: 0;
             display: inline-block;
-            width: 250px;
+            width: 194px;
             height: 100px;
-            background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/055/171/original/bentalloakslogo.svg?1561651947);
+            background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/055/172/original/BK_Logo_Oaks.svg?1561652010);
             background-size: 100px 70px;
             background-repeat: no-repeat;
         }
