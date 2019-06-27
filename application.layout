@@ -103,7 +103,7 @@
             display: inline-block;
             width: 150px;
             height: 60px;
-            background-image: url(http://codecloud.cdn.speedyrails.net/sites/5afdb6876e6f6410c7c90000/image/svg+xml/1561652015000/bentalloakslogo.svg);
+            background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/055/171/original/bentalloakslogo.svg?1561651947);
             background-size: 100px 70px;
             background-repeat: no-repeat;
         }
