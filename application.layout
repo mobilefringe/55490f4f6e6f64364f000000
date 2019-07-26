@@ -421,9 +421,11 @@
     </section>
     <section>
         <div class="container">
-            <a href="//bentallkennedy.com/" target="_blank">
-                <div class="bk_logo_svg"><p style="display:none">Bentall Kennedy</p></div>
-            </a>
+            <div class="footer_div">
+                <a href="//bentallkennedy.com/" target="_blank">
+                    <div class="bk_logo_svg"><p style="display:none">Bentall Kennedy</p></div>
+                </a>
+            </div>
         </div>
     </section>
     <section class="site-map-section">
