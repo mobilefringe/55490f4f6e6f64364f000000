@@ -106,6 +106,7 @@
     /*        background-size: 194px 100px;*/
     /*        background-repeat: no-repeat;*/
     /*    }*/
+    /* UPDATED LOGO PLACEMENT */
     .bk_logo_svg {
         width: 194px;
         height: 70px;
