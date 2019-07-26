@@ -332,7 +332,6 @@
 
 <footer>
     <section id="footer_teasers_wrapper">
-        
         <div class="container">
             <div class="footer_div">
                 <div class="footer_teaser">
@@ -388,19 +387,18 @@
                         </div>
                         </script>{% endraw %}
                     
-                        <ul class="list-group" >
-                            
+                        <ul class="list-group">
                             <li>
-                            <a  class="close-search list-group-item" style="color:black;font-weight:bold">
-                                <small>
-                                    <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
-                                </small>
-                            </a>
+                                <a class="close-search list-group-item" style="color:black;font-weight:bold">
+                                    <small>
+                                        <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
+                                    </small>
+                                </a>
                             </li>
                             <li>
-                            <div id="search_results_items" class="search-results-items" style="">
-                            <!--RENDERED BY renderSearchResultsTemplate(..) -->
-                            </div>
+                                <div id="search_results_items" class="search-results-items" style="">
+                                <!--RENDERED BY renderSearchResultsTemplate(..) -->
+                                </div>
                             </li>
                             <li>
                                 <a  class="close-search list-group-item" style="">
@@ -417,10 +415,15 @@
                         </ul>
                     </div>
                  </div>
-                <a href="//bentallkennedy.com/" target="_blank">
-                    <div class="bk_logo_svg"><p style="display:none">Bentall Kennedy</p></div>
-                </a>
+                
             </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <a href="//bentallkennedy.com/" target="_blank">
+                <div class="bk_logo_svg"><p style="display:none">Bentall Kennedy</p></div>
+            </a>
         </div>
     </section>
     <section class="site-map-section">
