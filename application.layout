@@ -106,7 +106,7 @@
     /*        background-size: 194px 100px;*/
     /*        background-repeat: no-repeat;*/
     /*    }*/
-    /* UPDATED LOGO PLACEMENT */
+    /* UPDATED LOGO PLACEMENT */yo bro. 
     .bk_logo_svg {
         width: 194px;
         height: 70px;
@@ -260,9 +260,11 @@
             border:15px solid #eaf1fb !important;
             border-top:none !important;
         }  
-            .bk_logo_svg {
-                display: none;
-            }
+        .bk_logo_svg {
+            left: 0;
+            right: unset;
+            bottom: -30px;
+        }
     }
 
     
