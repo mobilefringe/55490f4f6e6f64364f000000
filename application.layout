@@ -260,11 +260,22 @@
             border:15px solid #eaf1fb !important;
             border-top:none !important;
         }  
-        /*.bk_logo_svg {*/
-        /*    left: 0;*/
-        /*    right: unset;*/
-        /*    bottom: -30px;*/
-        /*}*/
+        .bk_logo_svg {
+            /*left: 0;*/
+            /*right: unset;*/
+            /*bottom: -30px;*/
+            
+            
+            width: 194px;
+            height: 70px;
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: -5px;
+            background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/055/172/original/BK_Logo_Oaks.svg?1561652010);
+            background-size: 194px 95px;
+            background-repeat: no-repeat;
+        }
     }
 </style>
 </head>
