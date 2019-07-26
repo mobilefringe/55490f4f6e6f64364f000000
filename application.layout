@@ -261,11 +261,6 @@
             border-top:none !important;
         }  
         .bk_logo_svg {
-            /*left: 0;*/
-            /*right: unset;*/
-            /*bottom: -30px;*/
-            
-            
             width: 194px;
             height: 70px;
             display: block;
