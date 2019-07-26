@@ -260,14 +260,12 @@
             border:15px solid #eaf1fb !important;
             border-top:none !important;
         }  
-        .bk_logo_svg {
-            left: 0;
-            right: unset;
-            bottom: -30px;
-        }
+        /*.bk_logo_svg {*/
+        /*    left: 0;*/
+        /*    right: unset;*/
+        /*    bottom: -30px;*/
+        /*}*/
     }
-
-    
 </style>
 </head>
 <body>
