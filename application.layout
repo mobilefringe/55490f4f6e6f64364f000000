@@ -274,7 +274,7 @@
         display: flex;
     }
     .bk_logo_svg {
-        position: intiial;
+        position: initial;
     }
     
 </style>
