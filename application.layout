@@ -273,6 +273,9 @@
     .logo_container {
         display: flex;
     }
+    .bk_logo_svg {
+        position: intiial;
+    }
     
 </style>
 </head>
