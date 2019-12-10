@@ -268,10 +268,13 @@
         display: flex;
     }
     .ribbon_container {
-        width: 100px;
+        width: 60px;
     }
     .logo_container {
         display: flex;
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
     .bk_logo_svg {
         position: initial;
