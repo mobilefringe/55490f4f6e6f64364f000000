@@ -260,6 +260,7 @@
     }
     .bk_logo_svg {
         position: initial;
+        margin-right: 20px;
     }
     
     
