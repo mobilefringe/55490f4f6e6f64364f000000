@@ -264,21 +264,21 @@
     
     /*ribbon test */
     
-    .footer_div {
-        display: flex;
-    }
-    .ribbon_container {
-        width: 60px;
-    }
-    .logo_container {
-        display: flex;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-    .bk_logo_svg {
-        position: initial;
-    }
+    /*.footer_div {*/
+    /*    display: flex;*/
+    /*}*/
+    /*.ribbon_container {*/
+    /*    width: 60px;*/
+    /*}*/
+    /*.logo_container {*/
+    /*    display: flex;*/
+    /*    position: absolute;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*}*/
+    /*.bk_logo_svg {*/
+    /*    position: initial;*/
+    /*}*/
     
 </style>
 </head>
@@ -434,16 +434,16 @@
                  </div>
                 
                 
-                <div class="logo_container">
-                    <div class="ribbon_container">
-                        <img src="//codecloud.cdn.speedyrails.net/sites/5afdb6876e6f6410c7c90000/image/png/1576000331000/Commercial-2019-Web-Page-Emblem-1.png" alt="2019 Kingsley Excellence Tenant Satisfaction Emblem">
-                    </div>
+                <!--<div class="logo_container">-->
+                <!--    <div class="ribbon_container">-->
+                <!--        <img src="//codecloud.cdn.speedyrails.net/sites/5afdb6876e6f6410c7c90000/image/png/1576000331000/Commercial-2019-Web-Page-Emblem-1.png" alt="2019 Kingsley Excellence Tenant Satisfaction Emblem">-->
+                <!--    </div>-->
                      
                     <a href="//bentallgreenoak.com" target="_blank">
                         <div class="bk_logo_svg"><p style="display:none">Bentall Kennedy</p></div>
                     </a>
                     
-                </div>
+                <!--</div>-->
                 
             </div>
         </div>
