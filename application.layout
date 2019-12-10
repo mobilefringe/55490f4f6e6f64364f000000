@@ -242,6 +242,27 @@
         color: #ccc !important;
         text-decoration: underline;
     }
+    
+    
+/*ribbon test */
+    
+    .footer_div {
+        display: flex;
+    }
+    .ribbon_container {
+        width: 60px;
+    }
+    .logo_container {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .bk_logo_svg {
+        position: initial;
+    }
+    
+    
     @media (max-width: 767px) {
         .main_window{
             width:100%;
@@ -261,6 +282,7 @@
             background-repeat: no-repeat;
         }
         
+        /**ribbon test*/
         
         .logo_container {
             left: 0;
@@ -268,23 +290,7 @@
         }
     }
     
-    /*ribbon test */
-    
-    .footer_div {
-        display: flex;
-    }
-    .ribbon_container {
-        width: 60px;
-    }
-    .logo_container {
-        display: flex;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-    .bk_logo_svg {
-        position: initial;
-    }
+
     
 </style>
 </head>
