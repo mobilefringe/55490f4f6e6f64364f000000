@@ -270,6 +270,9 @@
     .ribbon_container {
         width: 100px;
     }
+    .logo_container {
+        display: flex;
+    }
     
 </style>
 </head>
