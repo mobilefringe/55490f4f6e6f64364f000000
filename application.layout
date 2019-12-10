@@ -266,6 +266,9 @@
     .footer_teaser {
         display: flex;
     }
+    .ribbon_container {
+        width: 100px;
+    }
     
 </style>
 </head>
