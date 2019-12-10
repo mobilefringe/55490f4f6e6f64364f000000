@@ -264,9 +264,9 @@
     
     /*ribbon test */
     
-    .footer_div {
-        display: flex;
-    }
+    /*.footer_div {*/
+    /*    display: flex;*/
+    /*}*/
     .ribbon_container {
         width: 100px;
     }
