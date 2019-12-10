@@ -261,6 +261,12 @@
             background-repeat: no-repeat;
         }
     }
+    
+    /*ribbon test */
+    .footer_teaser {
+        display: flex;
+    }
+    
 </style>
 </head>
 <body>
@@ -414,7 +420,7 @@
                     </div>
                  </div>
                  
-                <div class="ribbon_container" style="width: 100px">
+                <div class="ribbon_container">
                     <img src="//codecloud.cdn.speedyrails.net/sites/5afdb6876e6f6410c7c90000/image/png/1576000331000/Commercial-2019-Web-Page-Emblem-1.png" alt="2019 Kingsley Excellence Tenant Satisfaction Emblem">
                 </div>
                  
