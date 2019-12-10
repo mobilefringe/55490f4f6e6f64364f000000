@@ -263,7 +263,8 @@
     }
     
     /*ribbon test */
-    .footer_teaser {
+    
+    .footer_div {
         display: flex;
     }
     .ribbon_container {
