@@ -272,6 +272,15 @@
             left: 0;
             bottom: -55px;
         }
+        .header-logos {
+            display: initial;
+        }
+        .header-ribbon {
+            display: none !important;
+        }
+        .ribbon_container {
+            display: block;
+        }
     }
     
 
@@ -284,9 +293,19 @@
     <a class="accessible" href="#page_content">[Skip to Content]</a>
      <div class="container">
           <nav class="navbar navbar-default" role="navigation">
-               <div class="navbar-header"><a class="navbar-brand" href="/home" id="site_logo">
-               <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img src="{{site_logo}}" alt="Milton East Centre">{% endraw %}</script>
-               </a><a href="#" class="btn btn-navbar btn-default navbar-toggle" onclick="javascript:toggle_menu()"><span class="nb_left pull-left"><span class="fa fa-reorder"></span></span><p style="display:none">menu</p> </a></div>
+               <div class="navbar-header">
+                    <div class="header-logos">
+        			    <a class="navbar-brand" href="/home" id="site_logo">
+                            <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img src="{{site_logo}}" alt="Milton East Centre">{% endraw %}</script>
+                        </a>
+        				
+        				<div class="header-ribbon">
+        				    <img src="//codecloud.cdn.speedyrails.net/sites/5afdb6876e6f6410c7c90000/image/png/1576000331000/Commercial-2019-Web-Page-Emblem-1.png" alt="2019 Kingsley Excellence Tenant Satisfaction Emblem">
+        				</div>
+    			    </div>
+               
+               
+               <a href="#" class="btn btn-navbar btn-default navbar-toggle" onclick="javascript:toggle_menu()"><span class="nb_left pull-left"><span class="fa fa-reorder"></span></span><p style="display:none">menu</p> </a></div>
                 <div class="mobile_menu" style="display:none">
                     <ul>
                         <li><a href="/stores">Store Directory</a></li>
