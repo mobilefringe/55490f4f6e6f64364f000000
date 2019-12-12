@@ -110,6 +110,20 @@
     a .directory_content:hover{
         color: #666666 !important;
     }
+    
+    .header-logos {
+        display: flex;
+    }
+    
+    .header-ribbon {
+        max-width: 57px;
+        position: relative;
+        bottom: 15px;
+    }
+    .ribbon_container {
+        display: none;
+    }
+    
     /*hyperlinks*/
     a{
         color:#666666;
