@@ -112,13 +112,17 @@
     }
     
     .header-logos {
-        display: flex;
+        position: relative;
     }
     
     .header-ribbon {
-        max-width: 57px;
-        position: relative;
-        bottom: 15px;
+        width: 100px;
+        position: absolute;
+        top: -26px;
+        left: 226px;
+    }
+    .header-ribbon img {
+        -ms-interpolation-mode: bicubic;
     }
     .ribbon_container {
         display: none;
